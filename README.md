@@ -1,1 +1,1 @@
-# [Virtualization](Virtualization/Virtualization.md) lab
+# [Virtualization](Virtualization/Virtualization.md)
