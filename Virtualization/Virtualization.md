@@ -12,12 +12,23 @@
 
 A piece of software is required to create virtual machines (guest machines) on the physical hardware (host machine).  This piece of software is known as the hypervisor or virtual machine monitor.
 
+A virtualization host is a physical machine which provides guest VM(s) the underlying compute resources, eg:
+
+- Compute
+- Memory
+- Storage
+- Network
+
+A virtual machine monitor (VMM) or hypervisor running on the host machine controls the guest VMs
+
 ## Hypervisors
 
 There are 2 types of hypervisor.
 
 - Type 1: Run directly on the host's hardware, eg Linux KVM, VMware ESXi
 - Type 2: Run on top of another operating system, eg Oracle Virtualbox, VMware Workstation Player
+
+Modern CPUs support hardware virtualization. On Linux systems, you can tell by checking the flags of /proc/cpuinfo. For Intel based CPUs, look for the `vmx` flag.  For AMD based CPUs, look for the `svm` flag.
 
 ## Lab Procedures
 
