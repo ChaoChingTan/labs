@@ -30,6 +30,10 @@ There are 2 types of hypervisor.
 
 Modern CPUs support hardware virtualization. On Linux systems, you can tell by checking the flags of /proc/cpuinfo. For Intel based CPUs, look for the `vmx` flag.  For AMD based CPUs, look for the `svm` flag.
 
+## KVM, libvirt and QEMU
+
+A write up of the above can be found [here](./KVM_libvirt.md).
+
 ## Lab Procedures
 
 TLDR: The steps for this lab is similar to this [linuxhint blogpost](https://linuxhint.com/how-to-install-fedora-workstation-35-on-virtualbox/), except that we will generally be using the latest stable version of all software.  
