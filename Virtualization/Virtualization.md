@@ -32,7 +32,7 @@ Modern CPUs support hardware virtualization. On Linux systems, you can tell by c
 
 ## KVM, libvirt and QEMU
 
-A write up of the above can be found [here](./KVM_libvirt.md).
+When running virtualization on Linux hosts, KVM, libvirtd and QEMU are the technologies often encountered.  A write up of the above can be found [here](./KVM_libvirt.md).
 
 ## Lab Procedures
 
