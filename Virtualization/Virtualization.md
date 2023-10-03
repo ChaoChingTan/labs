@@ -46,7 +46,7 @@ Detailed documentation can be found below, for reference if necesary:
 
   1. [Download Oracle Virtualbox](https://www.virtualbox.org/) - Choose the appropriate version for your OS
 
-  2. [Download Fedora Linux](https://getfedora.org/en/workstation/download/) - Get the latest stable version available.
+  2. [Download Fedora Linux](https://getfedora.org/en/workstation/download/) - Get the latest stable version available.  Download the ISO image file for use in step (5) later.
 
   3. [Install Virtualbox](https://www.virtualbox.org/manual/ch01.html#intro-installing) - Follow the user manual to install Oracle Virtualbox
 
@@ -61,6 +61,8 @@ Detailed documentation can be found below, for reference if necesary:
       iii. Hard Disk: 15 GB, dynamically allocated
 
       iv. Memory: 2 GB
+
+      vi. ISO Image: This shall be the Fedora Linux ISO file you had downloaded earlier.  
 
   6. [Start VM](https://www.virtualbox.org/manual/ch01.html#intro-starting-vm-first-time) and [Install Fedora Linux](https://docs.fedoraproject.org/en-US/fedora/latest/install-guide/install/Installing_Using_Anaconda/#sect-installation-graphical-mode)
 
