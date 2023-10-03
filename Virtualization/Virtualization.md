@@ -66,9 +66,14 @@ Detailed documentation can be found below, for reference if necesary:
 
   6. [Start VM](https://www.virtualbox.org/manual/ch01.html#intro-starting-vm-first-time) and [Install Fedora Linux](https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/install/Installing_Using_Anaconda/#sect-installation-graphical-mode)
 
+## Conclusion
+In this lab, you have installed a Fedora linux virtual machine on your physical machine.  
+
+
 ## Resources
 
 - [linuxhint: How to Install Fedora Workstation on Virtualbox](https://linuxhint.com/how-to-install-fedora-workstation-35-on-virtualbox/)
 - [Wikipedia: Virtualization](https://en.wikipedia.org/wiki/Virtualization)
 - [Redhat article: What is virtualization](https://www.redhat.com/en/topics/virtualization)
 - [Oracle Virtualbox Documentation](https://www.virtualbox.org/wiki/End-user_documentation)
+
