@@ -28,7 +28,11 @@ There are 2 types of hypervisor.
 - Type 1: Run directly on the host's hardware, eg Linux KVM, VMware ESXi
 - Type 2: Run on top of another operating system, eg Oracle Virtualbox, VMware Workstation Player
 
-Modern CPUs support hardware virtualization. On Linux systems, you can tell by checking the flags of /proc/cpuinfo. For Intel based CPUs, look for the `vmx` flag.  For AMD based CPUs, look for the `svm` flag.
+Modern CPUs support hardware virtualization:
+- On Linux systems, you can tell by checking the flags of /proc/cpuinfo. For Intel based CPUs, look for the `vmx` flag.  For AMD based CPUs, look for the `svm` flag.
+- On Windows systems, you can check the Tasks Manager -> Performance and you can see confirm from the status "Virtualization: Enabled" as shown in the figure below. ![Virtualization_01.png](assets/Virtualization_01.png)
+Alternatively, you may also run the command **systeminfo** in a command prompt which will generate information on the system including virtualization support: ![Virtualization_02.png](assets/Virtualization_02.png)
+- If virtualization is not enabled on your system, you will need to enable it in the BIOS before continuing.  
 
 ## KVM, libvirt and QEMU
 
@@ -48,7 +52,7 @@ Detailed documentation can be found below, for reference if necesary:
 
   4. [Start Virtualbox](https://www.virtualbox.org/manual/ch01.html#intro-starting)
 
-  5. [Creating a new Virtual Machine in Virtualbox](https://www.virtualbox.org/manual/ch01.html#gui-createvm) - Note the following when creating the VM:
+  5. [Creating a new Virtual Machine in Virtualbox](https://www.virtualbox.org/manual/ch01.html#create-vm-wizard) - Note the following when creating the VM:
 
       i. Name: Fedora
 
